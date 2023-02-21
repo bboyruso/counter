@@ -4,6 +4,7 @@
   margin: 0;
   border: 0;
 }
+
 *,
 *:before,
 *:after {
@@ -11,20 +12,24 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :focus,
 :active {
   outline: none;
 }
+
 a:focus,
 a:active {
   outline: none;
 }
+
 nav,
 footer,
 header,
 aside {
   display: block;
 }
+
 html,
 body {
   height: 100%;
@@ -36,34 +41,43 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
 textarea {
   font-family: inherit;
 }
+
 input::-ms-clear {
   display: none;
 }
+
 button {
   cursor: pointer;
 }
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
 a,
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
+
 h1,
 h2,
 h3,
@@ -78,10 +92,12 @@ h6 {
 * {
   box-sizing: border-box;
 }
+
 body {
   overflow: hidden;
   height: 100vh;
 }
+
 .container {
   border: 10px solid #0000003f;
   background-color: aqua;
@@ -94,6 +110,7 @@ body {
   justify-content: center;
   gap: 20px;
 }
+
 button {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.1rem;
@@ -102,6 +119,7 @@ button {
   border: 5px solid #00c0c0;
   margin: 10px 10px;
 }
+
 .output {
   font-size: 5rem;
   font-weight: lighter;
