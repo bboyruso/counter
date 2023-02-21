@@ -1,31 +1,32 @@
 let i = 0;
 
-const checkIt = () => {
+const checkMinMaxCounter = () => {
   if (i < 0) {
     i = 0;
     alert(`0 its a minimum value`);
   } else if (i > 10) {
     i = 10;
     alert(`10 its a maximum value`);
-  } else inner();
+  } else displayCounterNum();
 };
 
 const increment = () => {
   i++;
-  checkIt();
+  checkMinMaxCounter();
 };
 const decrement = () => {
   i--;
-  checkIt();
+  checkMinMaxCounter();
 };
 const reset = () => {
   i = 0;
-  inner();
+  displayCounterNum();
 };
 
 document.querySelector("#one").addEventListener("click", increment);
 document.querySelector("#two").addEventListener("click", decrement);
 document.querySelector("#tree").addEventListener("click", reset);
-const inner = () => {
+
+const displayCounterNum = () => {
   document.querySelector(".output").innerHTML = i;
 };
