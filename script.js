@@ -2,7 +2,7 @@ let counter = 0;
 
 const increment = () => {
   counter++;
-  if (counter >= 10) {
+  if (counter > 10) {
     counter = 10;
     showError("maximum");
     return;
